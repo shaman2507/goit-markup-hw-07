@@ -1,8 +1,47 @@
-
-
 @media screen and (min-width:428px) {
 
     .container {
-        max-width: 428px;
+        max-width: 458px;
+
     }
+
+    .banner {
+        max-width: 480px;
+        background: var(--banner-background-color);
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: var(--gra), url(../images/people-office\ 1.jpg);
+        background-size: cover;
+    }
+
+    .banner-title {
+        font-size: 36px;
+        line-height: 1.11;
+        width: 318px;
+        margin: 0 auto;
+        padding-bottom: 72px;
+    }
+
+    .header-logo {
+        line-height: 1.16;
+        font-size: var(--header-logo-font-size);
+    }
+
+    .mob-menu-tel {
+        font-size: 36px;
+    
+    }
+
+    .cont {
+        list-style-type: none;
+    
+        margin-bottom: 48px;
+    }
+
+    .cont-item {
+        padding-bottom: 40px;
+    }
+
 }
