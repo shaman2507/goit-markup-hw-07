@@ -54,8 +54,8 @@
 
     .main-list {
         width: calc((100% - 24px) / 2);
+        list-style-type: none;
         display: flex;
-        flex-wrap: wrap;
         gap: 24px;
     }
     

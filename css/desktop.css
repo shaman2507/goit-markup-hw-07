@@ -51,14 +51,13 @@
 
     .main-list {
         list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
         gap: 24px;
     }
 
     .main-item {
         width: 264px;
+        
     }
 
     .main-subtitle {
