@@ -53,14 +53,14 @@
     }
 
     .main-list {
-        width: calc((100% - 24px) / 2);
         list-style-type: none;
         display: flex;
+        flex-wrap: wrap;
         gap: 24px;
     }
     
     .main-item {
-        
+        width: calc((100% - 24px) / 2);
     }
 
     .main-subtitle {
@@ -70,4 +70,98 @@
         margin-bottom: 8px;
         text-align: inherit;
     }
+
+    .main-team-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .main-team-list {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: initial;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .main-team-item {
+        margin-bottom: 40px;
+        width: 264px;
+    }
+
+    .main-customers {
+        max-width: 552px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-customer-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        gap: 24px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .main-customer-item {
+        width: calc((100% - 48px) / 3);
+        height: 88px;
+        margin-bottom: 72px;
+    }
+
+    .container-main-footer {
+        max-width: 590px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: start;
+        text-align: left;
+        
+    }
+
+    .container-footer {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-top: 96px;
+        padding-bottom: 72px;
+
+    }
+
+    .footer-text {
+        width: 264px;
+    }
+
+    .footer-soc-text {
+        justify-content: flex-start;
+    }
+
+    .footer-subscribe-label {
+        width: 264px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .subscribe-btn-flex {
+        margin-left: 24px;
+    }
+
+    .footer-subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-sbscr-text {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .container-footer-sbscr {
+        max-width: 590px;
+        margin-left: 0;
+    }
+    
 }

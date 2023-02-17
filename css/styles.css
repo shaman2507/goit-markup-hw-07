@@ -346,7 +346,7 @@ body {
 }
 
 .section{
-    padding-top: 120px;
+    padding-top: 96px;
 }
 
 .wrapper {
@@ -494,29 +494,8 @@ body {
     background-color: var(--team-soc-link-hoover);
 }
 
-.main-job {
-
-}
-
 .container-title {
-    display: flex;
-    flex-direction: column;
-}
-
-.job-title {
-    justify-content: center;
-}
-
-.main-job-list {
-    list-style-type: none;
-    display: flex;
-    gap: 24px;
-    padding-bottom: 120px;
-    padding-top: 72px;
-}
-
-.main-job-item {
-
+    display: none;
 }
 
 .main-team {
@@ -533,15 +512,20 @@ body {
 }
 
 .main-team-list {
+    margin-left: auto;
+    margin-right: auto;
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
 
 .main-team-item {
     background-color: var(--banner-title-color);
-    margin-bottom: 120px;
+    margin-bottom: 72px;
+    
+    width: 264px;
 }
 
 .team-card {
@@ -549,6 +533,26 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     box-shadow: var(--team-card-box-shadow);
+}
+
+.main-team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #2E2F42;
+}
+
+.main-team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #434455;
 }
 
 .main-customers {
@@ -564,18 +568,21 @@ body {
 }
 
 .main-customer-list {
+    
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
-    gap: 24px;
+    gap: 16px;
     padding-top: 72px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
 }
 
 .main-customer-item {
-    width: 168px;
+    width: calc((100% - 16px) / 2);
     height: 88px;
-
-    
+    margin-bottom: 72px;
 }
 
 .customer-link {
@@ -608,26 +615,27 @@ body {
 
 .footer {
     background: var(--main-title-color);
-    display: flex;
 }
 
 .container-main-footer {
-    display: flex;
-    align-items: baseline;
-    gap: 120px;
+    padding: 96px auto;
+    gap: 24px;
 }
 
 .container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    
 }
 
 .footer-logo {
     font-family: var(--header-logo-font-family);
     font-weight: var(--header-logo-font-weight);
     font-size: var(--header-logo-font-size);
-    line-height: var(--header-logo-line-height);
+    line-height: 1.16;
     letter-spacing: var(--header-logo-letter-spacing);
     color: var(--footer-logo-color);
     text-decoration: none;
@@ -636,16 +644,21 @@ body {
 
 .footer-text {
     color: var(--footer-text-color);
-    margin-top: 14px;
-    width: 264px;
+    margin-top: 16px;
+    width: 268px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .container-footer-soc {
-    padding-top: 100px;
     
 }
 
 .footer-soc-text {
+    display: flex;
+    justify-content: center;
     font-weight: var(--font-weight);
     font-size: var(--font-size);
     line-height: var(--line-height);
@@ -658,8 +671,8 @@ body {
     list-style-type: none;
     display: flex;
     gap: 16px;
-    width: 40px;
-    height: 40px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .footer-soc-item {
@@ -687,10 +700,14 @@ body {
 }
 
 .container-footer-sbscr {
-    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 96px;
 }
 
 .footer-sbscr-text {
+    display: flex;
+    justify-content: center;
     font-weight: var(--font-weight);
     font-size: var(--font-size);
     line-height: var(--line-height);
@@ -700,13 +717,17 @@ body {
 }
 
 .footer-subscribe-form {
-    display: flex;
-    gap: 24px;
+    
 }
 
 .footer-subscribe-label {
-    width: 264px;
+    display: flex;
+    justify-content: center;
+    
     height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
 }
 
 .footer-email {
@@ -733,6 +754,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     gap: 16px;
     background-color: #4D5AE5;
     border-radius: 4px;
