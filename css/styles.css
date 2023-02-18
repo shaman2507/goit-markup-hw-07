@@ -225,8 +225,10 @@ body {
     height: 100vh;
     padding: 24px 24px 40px 40px;
     background-color: #FFFFFF;
-    
+    gap: 40px;
 }
+
+
 
 .menu-soc {
     
