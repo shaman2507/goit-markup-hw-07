@@ -21,7 +21,16 @@
 
     .banner {
         max-width: 1158px;
+        background-image: var(--gra), url(../images/people-office.jpg);
+    }
 
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .banner {
+            background-image: var(--gra), url(../images/people-office-2x.jpg);
+        }
     }
 
     .banner-title {

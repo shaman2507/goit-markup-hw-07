@@ -225,10 +225,12 @@ body {
     height: 100vh;
     padding: 24px 24px 40px 40px;
     background-color: #FFFFFF;
-    gap: 40px;
+
 }
 
-
+.menu-div {
+    
+}
 
 .menu-soc {
     
@@ -350,8 +352,17 @@ body {
     margin: 0 auto;
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: var(--gra), url(../images/people-office\ 1.jpg);
+    background-image: var(--gra), url(../images/people-office-mobile.jpg);
     background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .banner {
+        background-image: var(--gra), url(../images/people-office-mobile-2x.jpg);
+    }
 }
 
 
