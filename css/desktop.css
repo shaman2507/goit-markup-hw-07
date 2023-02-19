@@ -49,6 +49,17 @@
         gap: 40px;
     }
 
+    .header-address-link {
+        font-weight: 400;
+        font-style: var(--font-style);
+        font-size: var(--font-size);
+        line-height: 1.5;
+        text-decoration: none;
+        color: var(--main-text-color);
+        transition: color 250ms linear;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     .header-logo {
         line-height: var(--header-logo-line-height);
         font-size: var(--header-logo-font-size);
