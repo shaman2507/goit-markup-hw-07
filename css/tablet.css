@@ -189,5 +189,42 @@
         max-width: 590px;
         margin-left: 0;
     }
+
+    .portfolio-list {
+        width: 586px;
+        margin-bottom: 72px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 24px;
+        list-style-type: none;
+    }
+
+    .btn-all {
+        width: 69px;
+        height: 48px;
+    }
+
+    .btn-web-site {
+        width: 116px;
+        height: 48px;
+    }
+
+    .btn-app {
+        width: 78px;
+        height: 48px;
+    }
+
+    .btn-design {
+        width: 101px;
+        height: 48px;
+    }
+
+    .btn-marketing {
+        width: 126px;
+        height: 48px;
+    }
     
 }

@@ -351,4 +351,12 @@
         transition: opacity 250ms linear, visibility 250ms linear;
         animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    .portfolio-list {
+        list-style-type: none;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-bottom: 72px;
+    }
 }
