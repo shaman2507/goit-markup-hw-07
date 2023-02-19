@@ -20,7 +20,9 @@
     }
 
     .banner {
-        max-width: 1158px;
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
         background-image: var(--gra), url(../images/people-office.jpg);
     }
 
@@ -39,7 +41,6 @@
         color: var(--banner-title-color);
         width: 494px;
         margin: 0 auto;
-        padding-top: 188px;
         padding-bottom: 48px;
     }
 
@@ -62,15 +63,16 @@
     }
 
     .qualities-img-list {
-        width: 264px;
-        height: 112px;
-        background: var(--qualities-img-list);
-        padding: 24px 100px;
         display: flex;
         justify-content: center;
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+        padding: 24px 100px;
         gap: 24px;
         list-style-type: none;
-        margin-bottom: 8px;
+        border-radius: 4px;
+        background: var(--qualities-img-list);
     }
 
     .main-list {
@@ -101,6 +103,10 @@
         margin-bottom: 8px;
     }
 
+    .main-title-team {
+        padding-bottom: 72px;
+    }
+
     .container-title {
         display: flex;
         flex-direction: column;
@@ -118,6 +124,11 @@
         padding-top: 72px;
     }
 
+    .main-team {
+        padding-bottom: 120px;
+        background: var(--main-team-color);
+    }
+
     .main-team-list {
         list-style-type: none;
         display: flex;
@@ -126,7 +137,6 @@
 
     .main-team-item {
         background-color: var(--banner-title-color);
-        margin-bottom: 120px;
     }
 
     .team-card {
@@ -138,6 +148,7 @@
 
     .main-customers {
         max-width: 1158px;
+        padding-bottom: 120px;
     }
     
     
@@ -146,7 +157,6 @@
         list-style-type: none;
         gap: 24px;
         padding-top: 72px;
-        padding-bottom: 120px;
     }
 
     .main-customer-item {

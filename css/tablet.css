@@ -18,7 +18,8 @@
 
     .banner {
         max-width: 798px;
-        padding-bottom: 188px;
+        padding-top: 112px;
+        padding-bottom: 108px;
         background-image: var(--gra), url(../images/people-office-tablet.jpg);
     }
     
@@ -37,7 +38,6 @@
         color: var(--banner-title-color);
         width: 494px;
         margin: 0 auto;
-        padding-top: 111px;
         padding-bottom: 40px;
     }
 
@@ -52,6 +52,13 @@
         display: block;
         gap: 40px;
         
+    }
+
+    .header-address-link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
     }
 
     .header-logo {
@@ -74,10 +81,17 @@
         width: calc((100% - 24px) / 2);
     }
 
+    .main-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 72px;
+    }
+
     .main-subtitle {
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         margin-bottom: 8px;
         text-align: inherit;
     }
@@ -104,6 +118,7 @@
         max-width: 552px;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 72px;
     }
 
     .main-customer-list {
@@ -112,7 +127,7 @@
         list-style-type: none;
         gap: 24px;
         padding-top: 72px;
-        padding-bottom: 72px;
+
     }
 
     .main-customer-item {
