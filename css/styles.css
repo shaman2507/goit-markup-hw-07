@@ -745,6 +745,7 @@ body {
     height: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 16px;
 }
 
 .footer-email {
@@ -783,7 +784,7 @@ body {
 }
 
 .subscribe-btn-flex {
-    padding-top: 16px;
+    
 }
 
 .subscribe-btn-text {
