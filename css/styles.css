@@ -781,6 +781,10 @@ body {
     cursor: pointer;
 }
 
+.subscribe-btn-flex {
+    padding-top: 16px;
+}
+
 .subscribe-btn-text {
     font-weight: var(--subscribe-btn-text-font-weight);
     font-size: var(--subscribe-btn-text-font-size);
